@@ -33,4 +33,7 @@ urlpatterns = [
 
     # API routes
     path("api/catalog/", include("catalog.urls")),
+
+    # Orders
+    path("api/", include("orders.urls")),
 ]
